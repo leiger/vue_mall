@@ -5,7 +5,7 @@ let Goods = require('../models/goods');
 let Users = require('../models/users');
 
 // connect mongodb
-mongoose.connect('mongodb://127.0.0.1:27017/vue_mall', {useNewUrlParser: true});
+mongoose.connect('mongodb://127.0.0.1:27017/vmall1', {useNewUrlParser: true});
 
 let db = mongoose.connection;
 
